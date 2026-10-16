@@ -8,9 +8,13 @@ export const PROFILE = {
   bio: 'Bridging the gap between frontend polish and backend stability. Building high-performance applications that are scalable, reliable, and user-centric.',
   resumeUrl: '/resume.pdf', // put resume.pdf inside /public
   photo: '/profile1.jpg',
-  email: 'hello@example.com', // TODO: replace
-  github: 'https://github.com/your-username', // TODO: replace
-  linkedin: 'https://linkedin.com/in/your-username', // TODO: replace
+  email: 'olaniyiomodolapo@gmail.com', // TODO: replace
+  github: 'https://github.com/olaniyiomodolapo-david', // TODO: replace
+  linkedin: 'https://linkedin.com/in/Omodolapo olaniyi', // TODO: replace
+  phone: '+2349131630865',
+  whatsapp: '2349131630865',
+  linkedin: 'https://www.linkedin.com/in/your-profile',
+
 };
 
 // Order here = order in the navbar. `id` must match the section id on the page.

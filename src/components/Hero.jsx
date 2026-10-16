@@ -16,9 +16,9 @@ export default function Hero() {
 
         <div>
           <p className="text-xl font-semibold text-white">
-            <span className="inline-block animate-slide-top" style={delay(0)}>Hi,</span>{' '}
-            <span className="inline-block animate-slide-left" style={delay(1000)}>I'm</span>{' '}
-            <span className="inline-block animate-slide-bottom text-yellow-400" style={delay(2000)}>
+            <span className="fade-step inline-block" style={delay(0)}>Hi,</span>{' '}
+            <span className="fade-step inline-block" style={delay(1000)}>I'm</span>{' '}
+            <span className="fade-step inline-block text-yellow-400" style={delay(2000)}>
               {PROFILE.name}
             </span>
           </p>
@@ -26,10 +26,10 @@ export default function Hero() {
           {/* Two halves slowly slide in from opposite sides and meet */}
                     {/* Upper line from the top-left, lower line from the bottom-right */}
                     <h1 className="mt-6 font-display text-4xl font-bold leading-tight text-white sm:text-6xl">
-            <span className="block headline-top" style={delay(2500)}>
+            <span className="block headline-top" style={delay(3000)}>
               AI &amp; Fullstack
             </span>
-            <span className="block headline-bottom text-blue-400" style={delay(2500)}>
+            <span className="block headline-bottom text-yellow-400" style={delay(2500)}>
               Engineer
             </span>
           </h1>

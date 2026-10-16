@@ -26,8 +26,8 @@
   --muted: 161 161 170;
   --accent: 234 179 8;
   --on-accent: 9 9 11;
-  --hero: 8 14 40;           /* #080e28 */
-  --badge: 20 30 70;
+  --hero: 30 58 138;       /* #080e28 */
+  --badge: 30 58 138;
   --badge-ink: 191 219 254;
   --shadow: none;
 }
@@ -65,20 +65,20 @@
   .animate-slide-bottom-right,
   .animate-slide-bottom { animation-name: fadeIn; }
 }
-/* Headline: upper line from the top-left, lower line from the bottom-right */
+/* Headline: upper line drops in from just above, lower line rises from just below */
 @keyframes headlineTop {
-  from { opacity: 0; transform: translate(-120px, -90px); }
-  to   { opacity: 1; transform: translate(0, 0); }
+  from { opacity: 0; transform: translateY(-28px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 @keyframes headlineBottom {
-  from { opacity: 0; transform: translate(120px, 90px); }
-  to   { opacity: 1; transform: translate(0, 0); }
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
-.headline-top    { animation: headlineTop 2.5s ease-out both; }
-.headline-bottom { animation: headlineBottom 2.5s ease-out both; }
+.headline-top    { animation: headlineTop 1.6s ease-out both; }
+.headline-bottom { animation: headlineBottom 1.6s ease-out both; }
 
-@media (prefers-reduced-motion: reduce) {
-  .headline-top, .headline-bottom { animation-name: fadeIn; }
+/* Intro words: fade in one after the other, no movement */
+.fade-step { animation: fadeIn 1.2s ease-out both; 
 }
 /* Cards that appear when "View more" is clicked */
 @keyframes reveal {
