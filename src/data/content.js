@@ -7,7 +7,7 @@ export const PROFILE = {
     'Specializing in scalable backend architecture and polished AI/web frontends.',
   bio: 'Bridging the gap between frontend polish and backend stability. Building high-performance applications that are scalable, reliable, and user-centric.',
   resumeUrl: '/resume.pdf', // put resume.pdf inside /public
-  photo: '/profile.png',
+  photo: '/profile1.jpg',
   email: 'hello@example.com', // TODO: replace
   github: 'https://github.com/your-username', // TODO: replace
   linkedin: 'https://linkedin.com/in/your-username', // TODO: replace

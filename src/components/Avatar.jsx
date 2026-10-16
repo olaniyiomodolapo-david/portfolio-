@@ -7,7 +7,15 @@ export default function Avatar({ className = '' }) {
       className={`overflow-hidden rounded-full border-8 border-blue-400/40 bg-blue-950 shadow-[0_0_50px_rgb(96_165_250/0.35)] lg:border-[12px] ${className}`}
     >
       {PROFILE.photo ? (
-        <img src={PROFILE.photo} alt={PROFILE.name} className="h-full w-full object-cover" />
+        <img
+  src={PROFILE.photo}
+  alt={PROFILE.name}
+  width="600"
+  height="600"
+  fetchPriority="high"
+  decoding="async"
+  className="h-full w-full object-cover"
+/>
       ) : (
         <span
           aria-hidden="true"
