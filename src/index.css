@@ -90,3 +90,12 @@
 @media (prefers-reduced-motion: reduce) {
   .reveal { animation-name: fadeIn; }
 }
+/* Grid lines in the hero */
+.bg-grid {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.08) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(ellipse at 30% 40%, #000 20%, transparent 70%);
+  mask-image: radial-gradient(ellipse at 30% 40%, #000 20%, transparent 70%);
+}

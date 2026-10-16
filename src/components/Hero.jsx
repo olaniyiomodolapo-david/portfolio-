@@ -9,6 +9,7 @@ export default function Hero() {
       id="home"
       className="hero-bg relative flex min-h-[calc(100svh-4rem)] items-center overflow-hidden"
     >
+            <div aria-hidden="true" className="bg-grid pointer-events-none absolute inset-0" />
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-16 text-center lg:grid-cols-[1.3fr_1fr] lg:text-left">
         <div className="mx-auto animate-slide-top lg:order-2" style={delay(0)}>
           <Avatar className="h-36 w-36 lg:h-72 lg:w-72" />
