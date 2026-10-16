@@ -26,10 +26,10 @@ export default function Hero() {
           {/* Two halves slowly slide in from opposite sides and meet */}
                     {/* Upper line from the top-left, lower line from the bottom-right */}
                     <h1 className="mt-6 font-display text-4xl font-bold leading-tight text-white sm:text-6xl">
-            <span className="block headline-top" style={delay(3000)}>
+            <span className="block headline-top" style={delay(2000)}>
               AI &amp; Fullstack
             </span>
-            <span className="block headline-bottom text-yellow-400" style={delay(2500)}>
+            <span className="block headline-bottom text-yellow-400" style={delay(2000)}>
               Engineer
             </span>
           </h1>
